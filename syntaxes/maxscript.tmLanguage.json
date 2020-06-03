@@ -363,7 +363,7 @@
 				},
 				{
 					"name":"variable.other.pathname.mxs",
-					"match": "\\b\\$\\b|\\$[^ \\t\\r\\n]+"
+					"match": "\\b[$]\\b|[$](?:(?:[A-Za-z0-9_*?/\\\\]|[.]{3})*)"
 				}
 			]
 		},
@@ -371,7 +371,7 @@
 			"patterns": [
 				{
 					"name":  "constant.language.boolean.mxs",
-					"match": "(?i)\\b(?>true|on|false|off)\\b"
+					"match": "(?i)\\b(true|on|false|off)\\b"
 				},
 				{
 					"name":  "constant.language.math.mxs",
@@ -464,7 +464,7 @@
 				},
 				{
 					"name": "support.type.rolloutcontrol.mxs",
-					"match": "(?i)\\b(?>angle|button|checkbox|checkbutton|colorpicker|comboBox|curveControl|dotNetControl|dropdownList|editText|group|groupBox|hyperLink|imgTag|label|listBox|mapbutton|materialbutton|menuitem|multilistBox|pickbutton|popUpMenu|progressbar|radiobuttons|SchematicControl|slider|spinner|SubRollout|timer)\\b"
+					"match": "(?i)\\b(?>angle|button|checkbox|checkbutton|colorpicker|comboBox|curveControl|dotNetControl|dropdownList|editText|group|groupBox|hyperLink|imgTag|label|listBox|mapbutton|materialbutton|menuitem|subMenu|separator|multilistBox|pickbutton|popUpMenu|progressbar|radiobuttons|SchematicControl|slider|spinner|SubRollout|timer)\\b"
 				}
 			]
 		}
